@@ -9,3 +9,5 @@
 <body>
     <p><a href="homePage.html">Acceder au site</a>
 </body>
+
+</html>
