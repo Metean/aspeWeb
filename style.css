@@ -1,37 +1,81 @@
 /* Background color of the whole page */
-body{
-    background-color: whitesmoke;
+
+body {
+  background-color: whitesmoke;
 }
 
-
-
 /* Navigation bar */
-ul {
-    border: hidden;
-    border-radius: 0.3em;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
 
-  #panier {
-      float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: green;
-  }
+ul {
+  border: hidden;
+  border-radius: 0.3em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+#panier {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: hotpink;
+}
+
+/* Blocs arrangements */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image displaying */
+
+/* div.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+} */
+
+div.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}

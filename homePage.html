@@ -3,45 +3,50 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel = "stylesheet" href = "style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Mon site (faudra trouver un nom)</title>
 </head>
 
 <body>
     <header>
-        <h1> MON SITE DE VENTE DE MASQUES :))) </h1>
-        <!-- Mettre des liens ici, genre le panier ect-->
+        <h1><a href="homePage.html"> MON SITE DE VENTE DE MASQUES :))) </a></h1>
+        <!-- Faire un joli logo, avec a coté les rublriques qui sommes nous etc
+             (a moins de mettre les contact us etc dans le footer -->
     </header>
 
     <nav>
-        <!--Ici on aura tous nos menus pour naviguer entre les pages du site-->
         <ul>
-            <li><a>Tous les masques</a></li>
-            <li><a>Masques les plus populaires</a></li>
-            <li><a>Masques de Noël</a></li>
+            <li><a href="allMasks.html">Tous les masques</a></li>
+            <li><a href="popularMasks.html">Masques les plus populaires</a></li>
+            <li><a href="chrismasMasks.html">Masques de Noël</a></li>
             <li id="panier"><a>Panier</a></li>
         </ul>
     </nav>
-    
-    <h2>Masques du moment</h2>
 
-    <section>
-        <h3>Masques de Noël</h3>
-        <p>
-            <img src = "imgs/chrismasMask1.jpg">
-            <img src = "imgs/chrismasMask2.jpg">
-            <img src = "imgs/chrismasMask3.jpg">
-        </p>
-    </section>
+    <main>
+        <h2>Masques du moment:</h2>
 
-    <section>
-        <h3>Masques les plus populaires</h3>
-        <p>
-            <img src = "imgs/chrismasMask1.jpg">
-            <img src = "imgs/chrismasMask2.jpg">
-            <img src = "imgs/chrismasMask3.jpg">
-        </p>
-    </section>
+        <section>
+            <h3>Masques de Noël</h3>
+            <div class="gallery">
+                <a href="productPage.html"><img src="imgs/chrismasMask1.jpg"></a>
+            </div>
+            <div class="gallery">
+                <a href="productPage.html"><img src="imgs/chrismasMask2.jpg"></a>
+            </div>
+            <div class="gallery">
+                <a href="productPage.html"><img src="imgs/chrismasMask3.jpg"></a>
+            </div>
+        </section>
+
+        <section>
+            <h3>Masques les plus populaires</h3>
+            <div class="gallery"><img src="imgs/chrismasMask1.jpg"></div>
+            <div class="gallery"><img src="imgs/chrismasMask2.jpg"></div>
+            <div class="gallery"><img src="imgs/chrismasMask3.jpg"></div>
+        </section>
+    </main>
 
 </body>
+
 </html>
