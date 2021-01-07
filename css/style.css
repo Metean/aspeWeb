@@ -2,32 +2,27 @@
   color: rgb(45, 49, 66);
   color: rgb(191, 192, 192);
   color: rgb(245, 245, 245);
-  color: #ef8354;
+  color: rgb(239, 131, 84);
   color: rgb(79, 93, 117);
 }
 
 /* Background color of the whole page */
 
 body {
-  /* background-color: whitesmoke; */
   background-color: rgb(250, 250, 250);
 }
 
 /* header */
+
 header {
   display: flex;
   justify-content: space-between;
 }
 
-/* header img {
-  min-width: 20%;
-  max-width: 20%;
-} */
 header img a {
   min-width: 10%;
   max-width: 10%;
 }
-
 
 h1 a {
   text-decoration: none;
@@ -36,10 +31,9 @@ h1 a {
   font-size: 2em;
   font-weight: normal;
   line-height: 48px;
-  text-shadow: 1px 1px 2px #082b34;
+  text-shadow: 1px 1px 2px rgb(45, 49, 66, 0.8);
   margin: auto;
 }
-
 
 /* Navigation bar */
 
@@ -60,7 +54,6 @@ ul {
 li {
   float: left;
 }
-
 
 li a {
   display: block;
@@ -105,10 +98,12 @@ div.desc {
 }
 
 .button:link, .button:visited {
+  font-family: Arial;
   background-color: white;
-  color: black;
+  color: rgb(45, 49, 66);
+  ;
   border: 2px solid rgb(239, 131, 84);
-  padding: 10px 20px;
+  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -120,23 +115,25 @@ div.desc {
 }
 
 .desc p {
+  font-family: Arial;
   margin: auto;
 }
 
 /* Titles */
 
-
-h2 {
+h3 {
   max-width: 80%;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: rgb(239, 131, 84);
+  font-family: Arial, bold;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 48px;
+  text-shadow: 1px 1px 2px rgba(45, 49, 66, 0.5);
 }
-
-h3 {
-  max-width: 75%;
-  margin: auto;
-}
-
-
 
 /* Phone users */
 
@@ -155,11 +152,4 @@ h3 {
     max-width: 100%;
     margin: auto;
   }
-}
-
-/* Fonts */
-
-@font-face {
-  font-family: 'Rouge Script';
-  src: url('fonts/RougeScript-Regular.ttf');
 }
