@@ -40,7 +40,7 @@ h1 a {
 
 /* Navigation bar */
 
-nav {
+nav, footer {
   font-family: Arial, bold;
 }
 
@@ -193,12 +193,11 @@ h3 {
     margin: auto;
     max-width: 100%;
   }
-  h2 {
-    max-width: 100%;
-    margin: auto;
-  }
+  
   h3 {
     max-width: 100%;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
