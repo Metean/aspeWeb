@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Maskagogo ~ Accueil</title>
+    <title>Maskagogo !</title>
 </head>
 
 <body>
     <header>
 
-        <a href="homePage.html"><img height="100" id="home" src=icons/home.svg></a>
+        <a href="homePage.html"><img alt="Page d'acceuil" height="100" src=../icons/home.svg></a>
 
         <h1><a href="homePage.html">Maskagogo</a></h1>
 
-        <a href="cart.html"><img height="100" id="home" src=icons/cart.svg></a>
+        <a href="cart.html"><img alt="Panier" height="100" src=../icons/cart.svg></a>
 
     </header>
 
@@ -23,6 +23,12 @@
             <li><a href="allMasks.html">Tous les masques</a></li>
             <li><a href="popularMasks.html">Masques les plus populaires</a></li>
             <li><a href="chrismasMasks.html">Masques de Noël</a></li>
+            <li id="search">
+                <form action="searchPage.html">
+                    <button class="button" type="submit" vertical-align:middle><span>Rechercher</span></button>
+                    <input type="text"  placeholder="ex: Masque Bleu" value="" id="search-query">
+                  </form>
+            </li>
         </ul>
     </nav>
 </body>
