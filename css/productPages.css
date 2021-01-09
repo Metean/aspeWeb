@@ -137,7 +137,6 @@ li a:hover {
 
 section {
     display: flex;
-    flex-shrink: auto;
     margin: auto;
     max-width: 75%;
 }
@@ -191,7 +190,6 @@ h4 {
 @media (max-width: 1024px) {
     section {
         display: flex;
-        flex-shrink: auto;
         margin: auto;
         max-width: 100%;
     }
