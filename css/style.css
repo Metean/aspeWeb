@@ -75,7 +75,7 @@ li a:hover {
   font-family: Arial;
   float: right;
   text-align: center;
-  padding: 10px 12px;
+  padding: 6px 8px;
 }
 
 /* Button + little animation */
@@ -137,7 +137,6 @@ li a:hover {
 
 section {
   display: flex;
-
   margin: auto;
   max-width: 75%;
 }
@@ -189,6 +188,25 @@ h3 {
 #total .button {
   font-size: 1.3em;
   margin: auto;
+}
+
+/* us */
+
+p {
+  font-family: Arial;
+}
+
+p a {
+  color: rgb(239, 131, 84);
+}
+
+#constraints {
+  display: block;
+  font-family: Arial;
+}
+
+#constraints li {
+  float: none;
 }
 
 /* Phone users */
